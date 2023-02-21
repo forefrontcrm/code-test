@@ -1,6 +1,6 @@
 # Code Test - Contact Wallet
 
-Build a basic web app that keeps track of contacts for our users. 
+Build a basic web app that keeps track of contacts. 
 
 ### Contact Data Structure
 
@@ -15,12 +15,12 @@ Build a basic web app that keeps track of contacts for our users.
 - Use Test Driven Development
 - Create a Contact CRUD API with filtering on the read endpoint
 - Must create the following
-  - Modal
+  - Model
   - Controller
   - Tests
   - Form Requests
   - Resources
-- Update web routes
+- Update web routes to make endpoints public
 
 ## Frontend Requirements
 
