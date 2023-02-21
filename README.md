@@ -2,6 +2,14 @@
 
 Build a basic web app that keeps track of contacts. 
 
+## Installation
+* Clone down the repo
+* run ``` composer install ```
+* run ``` cp .env.example .env ```
+* run ``` php artisan key:generate ```
+* run ``` npm install ```
+* run ``` npm run dev``` to serve the app local
+
 ### Contact Data Structure
 
 - First Name (string, required)
