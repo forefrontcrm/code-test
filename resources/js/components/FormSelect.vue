@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <h1>Contact Wallet</h1>
-  </div>
+    <div></div>
 </template>
 
 <script>
 export default {
-    name: 'App',
+    name: "FormSelect"
 }
 </script>
 
