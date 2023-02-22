@@ -1,13 +1,13 @@
 <template>
-    <h1>Contact Wallet</h1>
+
 </template>
 
 <script>
 export default {
-    name: 'App',
+    name: "BaseInput",
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>

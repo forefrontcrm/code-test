@@ -1,17 +1,17 @@
 import {http} from './http'
-import {Contact, ContactList} from './contacts.mock'
+import {Contacts} from './contacts.mock'
 
 export const contactsApi = {
     get() {
-        return http.get('v1/contacts', ContactList)
+        return http.get('v1/contacts', Contacts)
     },
-    post(id, payload) {
-        return http.post('v1/contacts/' + id, payload, Contact)
+    post(contact) {
+        return http.post('v1/contacts/', contact, contact)
     },
-    put(id, payload) {
-        return http.put('v1/contacts/' + id, payload, Contact)
+    put(contact) {
+        return http.put('v1/contacts/' + contact.id, contact, contact)
     },
-    destroy(id) {
-        return http.destroy('v1/contacts/' + id, 'Contact Destroyed')
+    destroy(contactId) {
+        return http.destroy('v1/contacts/' + contactId, 'Contact Destroyed')
     }
 }

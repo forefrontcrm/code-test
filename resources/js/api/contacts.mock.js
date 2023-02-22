@@ -1,45 +1,44 @@
-export const Contact = {
-    'id': 1,
-    'first_name': 'John',
-    'last_name': 'Doe',
-    'age': '42',
-    'type': 'Buyer'
-}
-
-export const ContactList = [
+export const Contacts = [
     {
         'id': 1,
         'first_name': 'John',
         'last_name': 'Doe',
         'age': '42',
-        'type': 'Buyer'
+        'type': 1
     },
     {
         'id': 2,
         'first_name': 'Jane',
         'last_name': 'Doe',
-        'age': '37',
-        'type': 'Buyer'
+        'age': null,
+        'type': 1
     },
     {
         'id': 3,
         'first_name': 'Susan',
         'last_name': 'Seller',
-        'age': '59',
-        'type': 'Seller'
+        'age': null,
+        'type': 2
     },
     {
         'id': 4,
-        'first_name': 'Susan',
-        'last_name': 'Seller',
-        'age': '59',
-        'type': 'Seller'
+        'first_name': 'Billy',
+        'last_name': 'Buyer',
+        'age': '24',
+        'type': 1
     },
     {
         'id': 5,
-        'first_name': 'Susan',
-        'last_name': 'Seller',
+        'first_name': 'Frank',
+        'last_name': 'Smith',
         'age': '59',
-        'type': 'Seller'
+        'type': 2
     },
+    {
+        'id': 6,
+        'first_name': 'William',
+        'last_name': 'Roberts',
+        'age': '37',
+        'type': 1
+    }
 ]
