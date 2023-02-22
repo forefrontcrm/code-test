@@ -16,21 +16,12 @@ const mutations = {
     },
     addContact(state, contact) {
         // TODO Add the contact to state.contacts
-        state.contacts.push(contact)
     },
     updateContact(state, newContact) {
         // TODO Update the contact in state.contacts
-        state.contacts = state.contacts.map(contact => {
-            if (contact.id === newContact.id) {
-                contact = newContact
-            }
-
-            return contact;
-        })
     },
     removeContact(state, contactId) {
         // TODO Remove the contact from state.contacts
-        state.contacts = state.contacts.filter(contact => contact.id !== contactId)
     },
 }
 

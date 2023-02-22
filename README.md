@@ -52,6 +52,8 @@ Build a basic web app that keeps track of contacts.
 - Notes: 
   - The app is built in Vue2 using options API
   - The store is Vuex3
+  - Vite requires file extensions in imports or you'll get an error
   - css/style.css sets box-sizing and gives buttons a pointer
   - Use SCSS for in component styling language
   - You shouldn't touch anything in js/api directory
+  - No api calls are made but there are console logs that give you info that you would get in the Networks tab
