@@ -30,7 +30,8 @@ Build a basic web app that keeps track of contacts.
   - Form Requests
   - Resources
 - Update api routes to make endpoints public, no auth required for this
-- run ```php artisan make:model``` to make a Contact Model, and generate all the code it will for you.  Then pick up from there.
+- run ```php artisan make:model``` to make a Contact Model, and generate all the code it will for you.
+- complete the tests cases
 
 ## Frontend Requirements
 
