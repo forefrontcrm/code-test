@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->string('first_name');
             $table->string('last_name');
             $table->integer('age')->nullable();
-            $table->integer('type')->nullable(); // Buyer or Seller
+            $table->integer('type')->nullable(); // Buyer or Seller => 1 or 2
             $table->uuid('secret');
             $table->timestamps();
         });
